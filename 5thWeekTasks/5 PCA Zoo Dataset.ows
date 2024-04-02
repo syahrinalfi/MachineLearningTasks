@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Datasets" qualified_name="Orange.widgets.data.owdatasets.OWDataSets" project_name="Orange3" version="" title="Datasets" position="(121.0, 394.0)" />
+		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(312.0, 282.0)" />
+		<node id="2" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(309.0, 395.0)" />
+		<node id="3" name="PCA" qualified_name="Orange.widgets.unsupervised.owpca.OWPCA" project_name="Orange3" version="" title="PCA" position="(308.0, 511.0)" />
+		<node id="4" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (1)" position="(445.0, 395.0)" />
+		<node id="5" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot (1)" position="(450.0, 520.0)" />
+		<node id="6" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table (2)" position="(623.0, 519.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="0" sink_node_id="3" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="3" source_node_id="3" sink_node_id="4" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="3" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="5" source_node_id="5" sink_node_id="6" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'controlAreaVisible': True, 'header_state': b'\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\xf2\x00\x00\x00\x07\x01\x01\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00 \x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x06\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00O\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00N\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00A\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00d\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x01\x8a\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d', 'language': 'English', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xff\x00\x00\x00\x80\x00\x00\x05\x00\x00\x00\x02\x92\x00\x00\x01\x00\x00\x00\x00\x9e\x00\x00\x04\xff\x00\x00\x02\x91\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\x00\x00\x00\x00\x9e\x00\x00\x04\xff\x00\x00\x02\x91', 'selected_id': 'core/zoo.tab', 'splitter_state': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x01,\x00\x00\x00\xc8\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xca\x00\x00\x00m\x00\x00\x05\xb3\x00\x00\x02;\x00\x00\x01\xcb\x00\x00\x00\x8b\x00\x00\x05\xb2\x00\x00\x02:\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\xcb\x00\x00\x00\x8b\x00\x00\x05\xb2\x00\x00\x02:', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="2" format="pickle">gASVQwMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAADkAAAAUAAABR0AAAL+
+AAAA5QAAAG4AAAUcAAAC/QAAAAAAAAAABgAAAADlAAAAbgAABRwAAAL9lIwJc2VsZWN0aW9ulE6M
+EXRvb2x0aXBfc2hvd3NfYWxslIiMD3Zpc3VhbF9zZXR0aW5nc5R9lIwFZ3JhcGiUfZQojAthbHBo
+YV92YWx1ZZRLZIwNY2xhc3NfZGVuc2l0eZSJjBFqaXR0ZXJfY29udGludW91c5SJjAtqaXR0ZXJf
+c2l6ZZRLAIwTbGFiZWxfb25seV9zZWxlY3RlZJSJjBZvcnRob25vcm1hbF9yZWdyZXNzaW9ulImM
+C3BvaW50X3dpZHRolEsKjAlzaG93X2dyaWSUiYwLc2hvd19sZWdlbmSUiIwNc2hvd19yZWdfbGlu
+ZZSIdYwLX192ZXJzaW9uX1+USwWMEGNvbnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5z
+ZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9lCiMBnZhbHVlc5R9lCiMCmF0dHJfY29sb3KUjAR0eXBl
+lEtlhpSMCmF0dHJfbGFiZWyUTkr+////hpSMCmF0dHJfc2hhcGWUTkr+////hpSMCWF0dHJfc2l6
+ZZROSv7///+GlIwGYXR0cl94lIwEaGFpcpRLZYaUjAZhdHRyX3mUjAhmZWF0aGVyc5RLZYaUaAp9
+lGgWSwV1jAphdHRyaWJ1dGVzlH2UKGgqSwFoLUsBjARlZ2dzlEsBjARtaWxrlEsBjAhhaXJib3Ju
+ZZRLAYwHYXF1YXRpY5RLAYwIcHJlZGF0b3KUSwGMB3Rvb3RoZWSUSwGMCGJhY2tib25llEsBjAhi
+cmVhdGhlc5RLAYwIdmVub21vdXOUSwGMBGZpbnOUSwGMBGxlZ3OUSwGMBHRhaWyUSwGMCGRvbWVz
+dGljlEsBjAdjYXRzaXpllEsBaCFLAXWMBW1ldGFzlH2UjARuYW1llEsDc3ViYXUu
+</properties>
+		<properties node_id="3" format="literal">{'auto_commit': True, 'axis_labels': 10, 'controlAreaVisible': True, 'maxp': 20, 'ncomponents': 2, 'normalize': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\x95\x00\x00\x00\x80\x00\x00\x04k\x00\x00\x02\x92\x00\x00\x01\x96\x00\x00\x00\x9e\x00\x00\x04j\x00\x00\x02\x91\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\x96\x00\x00\x00\x9e\x00\x00\x04j\x00\x00\x02\x91', 'variance_covered': 47, '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x81\x00\x00\x00_\x00\x00\x05\xa2\x00\x00\x02q\x00\x00\x02\x82\x00\x00\x00}\x00\x00\x05\xa1\x00\x00\x02p\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x82\x00\x00\x00}\x00\x00\x05\xa1\x00\x00\x02p', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="5" format="pickle">gASV5gMAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAADkAAAAUAAABR0AAAL+
+AAAA5QAAAG4AAAUcAAAC/QAAAAAAAAAABgAAAADlAAAAbgAABRwAAAL9lIwJc2VsZWN0aW9ulF2U
+KEsTjBVudW1weS5jb3JlLm11bHRpYXJyYXmUjAZzY2FsYXKUk5SMBW51bXB5lIwFZHR5cGWUk5SM
+AnUxlImIh5RSlChLA4wBfJROTk5K/////0r/////SwB0lGJDAQGUhpRSlIaUS0FoCmgQaBOGlFKU
+hpRLSWgKaBBoE4aUUpSGlEtKaApoEGgThpRSlIaUZYwRdG9vbHRpcF9zaG93c19hbGyUiIwPdmlz
+dWFsX3NldHRpbmdzlH2UjAVncmFwaJR9lCiMC2FscGhhX3ZhbHVllEtkjA1jbGFzc19kZW5zaXR5
+lImMEWppdHRlcl9jb250aW51b3VzlImMC2ppdHRlcl9zaXpllEsAjBNsYWJlbF9vbmx5X3NlbGVj
+dGVklIiMFm9ydGhvbm9ybWFsX3JlZ3Jlc3Npb26UiYwLcG9pbnRfd2lkdGiUSwqMCXNob3dfZ3Jp
+ZJSJjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIh1jAtfX3ZlcnNpb25fX5RLBYwQY29u
+dGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2U
+KIwGdmFsdWVzlH2UKIwKYXR0cl9jb2xvcpSMBHR5cGWUS2WGlIwKYXR0cl9sYWJlbJROSv7///+G
+lIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0cl9zaXpllE5K/v///4aUjAZhdHRyX3iUjANQQzGU
+S2aGlIwGYXR0cl95lIwDUEMylEtmhpRoI32UaC9LBXWMCmF0dHJpYnV0ZXOUfZQojARoYWlylEsB
+jAhmZWF0aGVyc5RLAYwEZWdnc5RLAYwEbWlsa5RLAYwIYWlyYm9ybmWUSwGMB2FxdWF0aWOUSwGM
+CHByZWRhdG9ylEsBjAd0b290aGVklEsBjAhiYWNrYm9uZZRLAYwIYnJlYXRoZXOUSwGMCHZlbm9t
+b3VzlEsBjARmaW5zlEsBjARsZWdzlEsBjAR0YWlslEsBjAhkb21lc3RpY5RLAYwHY2F0c2l6ZZRL
+AWg6SwF1jAVtZXRhc5R9lCiMBG5hbWWUSwNoQ0sCaEZLAnV1YmF1Lg==
+</properties>
+		<properties node_id="6" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x81\x00\x00\x00_\x00\x00\x05\xa2\x00\x00\x02q\x00\x00\x02\x82\x00\x00\x00}\x00\x00\x05\xa1\x00\x00\x02p\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x02\x82\x00\x00\x00}\x00\x00\x05\xa1\x00\x00\x02p', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
